@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SuperHero2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kW8-AP-aDz">
+                                <rect key="frame" x="66.666666666666686" y="69" width="260" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="4gI-jH-9Dd"/>
+                                    <constraint firstAttribute="width" constant="260" id="c06-QY-YxW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AR-Bi-Pkm">
+                                <rect key="frame" x="10" y="429" width="373" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSY-f7-GgT">
+                                <rect key="frame" x="10" y="459.33333333333331" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMj-oy-3Hk">
+                                <rect key="frame" x="10" y="490.33333333333331" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Y2-jT-Mzn">
+                                <rect key="frame" x="10" y="521.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jW-oC-pfK">
+                                <rect key="frame" x="10" y="552.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Eye Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DU-R0-30e">
+                                <rect key="frame" x="10" y="583.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Hair Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ve-3gI">
+                                <rect key="frame" x="10" y="614.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Race" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edg-zK-grI">
+                                <rect key="frame" x="10" y="645.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hero Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StM-b6-hVF">
+                                <rect key="frame" x="10" y="676.33333333333337" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ick-eG-Ha6">
+                                <rect key="frame" x="20" y="773" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Roll Hero!"/>
+                                <connections>
+                                    <action selector="getHeroClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NKK-vo-Efn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="StM-b6-hVF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="25c-0V-CSy"/>
+                            <constraint firstItem="1Y2-jT-Mzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="33x-h2-Pho"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ick-eG-Ha6" secondAttribute="trailing" constant="20" id="4LS-Lv-Oly"/>
+                            <constraint firstItem="2AR-Bi-Pkm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="4zj-qj-1Kp"/>
+                            <constraint firstItem="2AR-Bi-Pkm" firstAttribute="top" secondItem="kW8-AP-aDz" secondAttribute="bottom" constant="10" id="6K9-XR-i0K"/>
+                            <constraint firstItem="5jW-oC-pfK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="83W-jK-ynX"/>
+                            <constraint firstItem="1Y2-jT-Mzn" firstAttribute="top" secondItem="jMj-oy-3Hk" secondAttribute="bottom" constant="10" id="8bb-Xc-GRy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMj-oy-3Hk" secondAttribute="trailing" constant="10" id="9fd-z4-0Bc"/>
+                            <constraint firstItem="cSY-f7-GgT" firstAttribute="top" secondItem="2AR-Bi-Pkm" secondAttribute="bottom" constant="10" id="C2T-KJ-NAX"/>
+                            <constraint firstItem="edg-zK-grI" firstAttribute="top" secondItem="MO4-ve-3gI" secondAttribute="bottom" constant="10" id="CqN-UR-WlO"/>
+                            <constraint firstItem="MO4-ve-3gI" firstAttribute="top" secondItem="4DU-R0-30e" secondAttribute="bottom" constant="10" id="ETo-yC-Z7e"/>
+                            <constraint firstItem="MO4-ve-3gI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="EXM-KA-Wkb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="edg-zK-grI" secondAttribute="trailing" constant="10" id="F8J-wP-gXl"/>
+                            <constraint firstItem="Ick-eG-Ha6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Flx-Mk-sjU"/>
+                            <constraint firstItem="5jW-oC-pfK" firstAttribute="top" secondItem="1Y2-jT-Mzn" secondAttribute="bottom" constant="10" id="Jzw-lM-NuP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4DU-R0-30e" secondAttribute="trailing" constant="10" id="SSa-Sa-11z"/>
+                            <constraint firstItem="kW8-AP-aDz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XNf-WQ-vwN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5jW-oC-pfK" secondAttribute="trailing" constant="10" id="cVu-qB-x1u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2AR-Bi-Pkm" secondAttribute="trailing" constant="10" id="cd0-xb-W7E"/>
+                            <constraint firstItem="cSY-f7-GgT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dXp-Xb-DpN"/>
+                            <constraint firstItem="StM-b6-hVF" firstAttribute="top" secondItem="edg-zK-grI" secondAttribute="bottom" constant="10" id="eQQ-cc-JMk"/>
+                            <constraint firstItem="jMj-oy-3Hk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fkV-Vs-5H3"/>
+                            <constraint firstItem="kW8-AP-aDz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hnK-tU-Q2x"/>
+                            <constraint firstItem="jMj-oy-3Hk" firstAttribute="top" secondItem="cSY-f7-GgT" secondAttribute="bottom" constant="10" id="mdS-Nc-rdM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Y2-jT-Mzn" secondAttribute="trailing" constant="10" id="q3y-VQ-w7G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MO4-ve-3gI" secondAttribute="trailing" constant="10" id="rrw-nx-iRN"/>
+                            <constraint firstItem="edg-zK-grI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="rsc-AB-dc8"/>
+                            <constraint firstItem="4DU-R0-30e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="sUV-GS-ekr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="StM-b6-hVF" secondAttribute="trailing" constant="10" id="vme-TU-lne"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cSY-f7-GgT" secondAttribute="trailing" constant="10" id="xbv-kU-HkE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ick-eG-Ha6" secondAttribute="bottom" constant="10" id="yBZ-7H-oQn"/>
+                            <constraint firstItem="4DU-R0-30e" firstAttribute="top" secondItem="5jW-oC-pfK" secondAttribute="bottom" constant="10" id="yqF-Bu-jLQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heroEyeColor" destination="4DU-R0-30e" id="KEI-Tx-vH6"/>
+                        <outlet property="heroGender" destination="cSY-f7-GgT" id="VHl-46-M4B"/>
+                        <outlet property="heroHairColor" destination="MO4-ve-3gI" id="kge-84-Z9b"/>
+                        <outlet property="heroImage" destination="kW8-AP-aDz" id="65M-7P-9cK"/>
+                        <outlet property="heroName" destination="2AR-Bi-Pkm" id="Bu7-aY-kPd"/>
+                        <outlet property="heroPlace" destination="StM-b6-hVF" id="m6W-Zo-HB2"/>
+                        <outlet property="heroPower" destination="jMj-oy-3Hk" id="WJe-wf-Igq"/>
+                        <outlet property="heroRace" destination="edg-zK-grI" id="Qog-3m-SCH"/>
+                        <outlet property="heroSpeed" destination="1Y2-jT-Mzn" id="AYK-rn-3NR"/>
+                        <outlet property="heroWeight" destination="5jW-oC-pfK" id="2W3-vy-fCy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129.00763358778624" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
